@@ -6,6 +6,12 @@ void forward_null(void)
           char* p = 0;
           *p = 'a';
         }
+		
+void forward_null_2(void)
+        {
+          char* p = 0;
+          *p = 'a';
+        }
 
 void reverse_null(char* input)
     {
